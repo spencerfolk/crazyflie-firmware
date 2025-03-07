@@ -81,9 +81,9 @@
  
  // Parameter and logging definitions
  PARAM_GROUP_START(ina260)
- PARAM_ADD(PARAM_FLOAT, current, &currentInAmps)
- PARAM_ADD(PARAM_FLOAT, voltage, &voltageInVolts)
- PARAM_ADD(PARAM_FLOAT, power, &powerInWatts)
+//  PARAM_ADD(PARAM_FLOAT, current, &currentInAmps)
+//  PARAM_ADD(PARAM_FLOAT, voltage, &voltageInVolts)
+//  PARAM_ADD(PARAM_FLOAT, power, &powerInWatts)
  PARAM_ADD(PARAM_UINT8, enable, &enableMeasurements)
  PARAM_GROUP_STOP(ina260)
  
