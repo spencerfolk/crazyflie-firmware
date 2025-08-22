@@ -40,11 +40,11 @@ static void windSensorTask(void *param) {
 
                 while (token != NULL) {
                     switch (tokenIdx) {
-                        case 0:
+                        case 1:
                             flowX = atoi(token);
                             break;
-                        case 1:
-                            flowY = atoi(token);
+                        case 0:
+                            flowY = -atoi(token);
                             break;
 
                     }
